@@ -29,7 +29,7 @@ class Portfolio():
                  print("Yetersiz adet.")
                  return
                 s.qty -= qty
-                self.kasa += qty * s.current_price  # sadece bir kez
+                self.kasa += qty * s.current_price 
                 if s.qty == 0:
                     self.liste.remove(s)
                     print(f"{ticker} portföyden çıkarıldı.")
